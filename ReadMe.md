@@ -2,7 +2,7 @@ steps
 1. start mongo db in localhost 
 2. create database `Bank_sys` 
 3. start backend by `npm start`
-4. call adduser api from post mant and few users for testing . by using blow curl in postman 
+4. call adduser api from postman app and few users for testing . by using blow curl 
 
 curl --location --request POST 'http://localhost:5000/bank/adduser' \
 --header 'Content-Type: application/json' \
