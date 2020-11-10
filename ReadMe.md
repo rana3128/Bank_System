@@ -31,3 +31,7 @@ curl --location --request POST 'http://localhost:5000/bank/transferMoney' \
     "toAccountId": "10003",
     "amount": 10
 }'
+
+lsklksa
+zxlkclxz
+zxcnzxl
