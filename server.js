@@ -20,6 +20,7 @@ app.use(function(req, res, next) {
 var transaction = require('./routes/transaction');
 var about = require('./routes/about');
 app.use('/bank', transaction);
+//this about page is only for static data
 app.use('/about', about);
 app.use('/help', (req, res) => {
     res.send("Help query details");
