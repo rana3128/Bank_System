@@ -4,7 +4,8 @@ const db = require("./config/mongodb");
 const tablename = 'user_account';
 
 router.post('/', function(req, res) {
-    return  res.send({errorCode: 1009 , errorMessage:"Both account belong to same user"});
+    //send static data
+    return  res.send("<div>contact us on 900399393 ist thanks</div>");
 });
 
 module.exports = router;
