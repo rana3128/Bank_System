@@ -20,6 +20,8 @@ app.use(function(req, res, next) {
 var transaction = require('./routes/transaction');
 app.use('/bank', transaction);
 app.use('/help', (req, res) => {
+    //set status 
+    res.status(200);
     res.send("Help query details");
 });
 const port = process.env.PORT || 5000;
