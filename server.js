@@ -23,6 +23,8 @@ app.use('/bank', transaction);
 //this about page is only for static data
 app.use('/about', about);
 app.use('/help', (req, res) => {
+    //set status 
+    res.status(200);
     res.send("Help query details");
 });
 const port = process.env.PORT || 5000;
