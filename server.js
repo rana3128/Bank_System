@@ -18,6 +18,8 @@ app.use(function(req, res, next) {
 });
 
 var transaction = require('./routes/transaction');
+var about = require('./routes/about');
 app.use('/bank', transaction);
+app.use('/about', about);
 const port = process.env.PORT || 5000;
 app.listen(port, ()=> console.log('server is running os port'+ port));
