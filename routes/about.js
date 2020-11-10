@@ -5,6 +5,7 @@ const tablename = 'user_account';
 
 router.post('/', function(req, res) {
     //send static data
+    res.status(200);
     return  res.send("<div>contact us on 900399393 ist thanks</div>");
 });
 
