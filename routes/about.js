@@ -12,4 +12,6 @@ router.post('/', function(req, res) {
     return  res.send("<div>contact us on 900399393 ist thanks</div>");
 });
 
+
+console.log('added commit 2 by user 1');
 module.exports = router;
