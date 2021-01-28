@@ -17,6 +17,10 @@ app.use(function(req, res, next) {
     next();
 });
 
+
+
+let tmp = 'this is aaded by user 1';
+
 var transaction = require('./routes/transaction');
 var about = require('./routes/about');
 app.use('/bank', transaction);
