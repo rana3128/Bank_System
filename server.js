@@ -17,6 +17,7 @@ app.use(function(req, res, next) {
     next();
 });
 
+// added by vijay-test
 var transaction = require('./routes/transaction');
 var about = require('./routes/about');
 app.use('/bank', transaction);
