@@ -22,6 +22,8 @@ curl --location --request POST 'http://localhost:5000/bank/addBalance' \
     "addBanalce": 10
 }'
 
+// user-1 commit 3
+
 6.  transfer money between accounts. by using blow curl in postman 
 
 curl --location --request POST 'http://localhost:5000/bank/transferMoney' \
